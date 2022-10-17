@@ -23,7 +23,7 @@ pipeline {
         }
         stag("Complete"){
             steps{
-                "Job Complete. Post commit. Should be auto-built"
+                echo "Job Complete. Post commit. Should be auto-built"
             }
         }
     }
